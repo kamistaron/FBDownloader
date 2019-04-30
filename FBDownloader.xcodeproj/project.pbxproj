@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F8204D770A33FDC4F095A9A /* Pods_FBDownloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC348EA97EF8C78AB2F8274 /* Pods_FBDownloader.framework */; };
+		20439A504DDDF3D322EA6D87 /* Pods_FBDownloaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73186ADC2666F619248A95C /* Pods_FBDownloaderTests.framework */; };
 		434CE116226430FD00A84AF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434CE115226430FD00A84AF4 /* AppDelegate.swift */; };
 		434CE118226430FD00A84AF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434CE117226430FD00A84AF4 /* ViewController.swift */; };
 		434CE11B226430FD00A84AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434CE119226430FD00A84AF4 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		434CE120226430FE00A84AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434CE11E226430FE00A84AF4 /* LaunchScreen.storyboard */; };
 		434CE12B226430FE00A84AF4 /* FBDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434CE12A226430FE00A84AF4 /* FBDownloaderTests.swift */; };
 		434CE136226430FE00A84AF4 /* FBDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434CE135226430FE00A84AF4 /* FBDownloaderUITests.swift */; };
+		43887D202271EDCF0066FA81 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43887D1F2271EDCF0066FA81 /* Video.swift */; };
+		43BFCAA52276F841005F3A69 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFCAA42276F841005F3A69 /* TableTableViewController.swift */; };
+		FB31CBD512A5660162E39DF3 /* Pods_FBDownloaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB1F678B0E0357B2BAB139F /* Pods_FBDownloaderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,17 @@
 		434CE131226430FE00A84AF4 /* FBDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		434CE135226430FE00A84AF4 /* FBDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBDownloaderUITests.swift; sourceTree = "<group>"; };
 		434CE137226430FE00A84AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43887D1F2271EDCF0066FA81 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		43BFCAA42276F841005F3A69 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
+		4EE03225B046F08E56740423 /* Pods-FBDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDownloaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBDownloaderTests/Pods-FBDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		5AC348EA97EF8C78AB2F8274 /* Pods_FBDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4120DACF0D1514B0473FAE7 /* Pods-FBDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDownloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBDownloader/Pods-FBDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		A73186ADC2666F619248A95C /* Pods_FBDownloaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBDownloaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB1F678B0E0357B2BAB139F /* Pods_FBDownloaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBDownloaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74578B94830AF9C40C1A644 /* Pods-FBDownloaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDownloaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBDownloaderTests/Pods-FBDownloaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2009FA8E0B13BC7D44B61F8 /* Pods-FBDownloaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDownloaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBDownloaderUITests/Pods-FBDownloaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3B9DCFB0C2CC653F0A6D947 /* Pods-FBDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDownloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBDownloader/Pods-FBDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		FAAAFDA17D1084C6596652BF /* Pods-FBDownloaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDownloaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBDownloaderUITests/Pods-FBDownloaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8204D770A33FDC4F095A9A /* Pods_FBDownloader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20439A504DDDF3D322EA6D87 /* Pods_FBDownloaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB31CBD512A5660162E39DF3 /* Pods_FBDownloaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				434CE129226430FE00A84AF4 /* FBDownloaderTests */,
 				434CE134226430FE00A84AF4 /* FBDownloaderUITests */,
 				434CE113226430FD00A84AF4 /* Products */,
+				BE8B2047DD3848DCF8554453 /* Pods */,
+				E047FBFB5351D0396104FF1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +119,10 @@
 			isa = PBXGroup;
 			children = (
 				434CE115226430FD00A84AF4 /* AppDelegate.swift */,
+				43BFCAA42276F841005F3A69 /* TableTableViewController.swift */,
 				434CE117226430FD00A84AF4 /* ViewController.swift */,
 				434CE119226430FD00A84AF4 /* Main.storyboard */,
+				43887D1F2271EDCF0066FA81 /* Video.swift */,
 				434CE11C226430FE00A84AF4 /* Assets.xcassets */,
 				434CE11E226430FE00A84AF4 /* LaunchScreen.storyboard */,
 				434CE121226430FE00A84AF4 /* Info.plist */,
@@ -125,6 +148,29 @@
 			path = FBDownloaderUITests;
 			sourceTree = "<group>";
 		};
+		BE8B2047DD3848DCF8554453 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4120DACF0D1514B0473FAE7 /* Pods-FBDownloader.debug.xcconfig */,
+				E3B9DCFB0C2CC653F0A6D947 /* Pods-FBDownloader.release.xcconfig */,
+				C74578B94830AF9C40C1A644 /* Pods-FBDownloaderTests.debug.xcconfig */,
+				4EE03225B046F08E56740423 /* Pods-FBDownloaderTests.release.xcconfig */,
+				FAAAFDA17D1084C6596652BF /* Pods-FBDownloaderUITests.debug.xcconfig */,
+				E2009FA8E0B13BC7D44B61F8 /* Pods-FBDownloaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E047FBFB5351D0396104FF1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AC348EA97EF8C78AB2F8274 /* Pods_FBDownloader.framework */,
+				A73186ADC2666F619248A95C /* Pods_FBDownloaderTests.framework */,
+				ABB1F678B0E0357B2BAB139F /* Pods_FBDownloaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 434CE13A226430FE00A84AF4 /* Build configuration list for PBXNativeTarget "FBDownloader" */;
 			buildPhases = (
+				FE68B6CED0C796E7568D268D /* [CP] Check Pods Manifest.lock */,
 				434CE10E226430FD00A84AF4 /* Sources */,
 				434CE10F226430FD00A84AF4 /* Frameworks */,
 				434CE110226430FD00A84AF4 /* Resources */,
+				1BB64571382F746EE484877F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 434CE13D226430FE00A84AF4 /* Build configuration list for PBXNativeTarget "FBDownloaderTests" */;
 			buildPhases = (
+				D7D080E8C68C791D315D0EB1 /* [CP] Check Pods Manifest.lock */,
 				434CE122226430FE00A84AF4 /* Sources */,
 				434CE123226430FE00A84AF4 /* Frameworks */,
 				434CE124226430FE00A84AF4 /* Resources */,
@@ -167,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 434CE140226430FE00A84AF4 /* Build configuration list for PBXNativeTarget "FBDownloaderUITests" */;
 			buildPhases = (
+				C81396BE02043206B73CE8A9 /* [CP] Check Pods Manifest.lock */,
 				434CE12D226430FE00A84AF4 /* Sources */,
 				434CE12E226430FE00A84AF4 /* Frameworks */,
 				434CE12F226430FE00A84AF4 /* Resources */,
@@ -251,12 +301,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BB64571382F746EE484877F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBDownloader/Pods-FBDownloader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBDownloader/Pods-FBDownloader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBDownloader/Pods-FBDownloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81396BE02043206B73CE8A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBDownloaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D080E8C68C791D315D0EB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBDownloaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE68B6CED0C796E7568D268D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBDownloader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		434CE10E226430FD00A84AF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BFCAA52276F841005F3A69 /* TableTableViewController.swift in Sources */,
 				434CE118226430FD00A84AF4 /* ViewController.swift in Sources */,
+				43887D202271EDCF0066FA81 /* Video.swift in Sources */,
 				434CE116226430FD00A84AF4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +568,7 @@
 		};
 		434CE13B226430FE00A84AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4120DACF0D1514B0473FAE7 /* Pods-FBDownloader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +587,7 @@
 		};
 		434CE13C226430FE00A84AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B9DCFB0C2CC653F0A6D947 /* Pods-FBDownloader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +606,7 @@
 		};
 		434CE13E226430FE00A84AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74578B94830AF9C40C1A644 /* Pods-FBDownloaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +628,7 @@
 		};
 		434CE13F226430FE00A84AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE03225B046F08E56740423 /* Pods-FBDownloaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +650,7 @@
 		};
 		434CE141226430FE00A84AF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAAFDA17D1084C6596652BF /* Pods-FBDownloaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +671,7 @@
 		};
 		434CE142226430FE00A84AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2009FA8E0B13BC7D44B61F8 /* Pods-FBDownloaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
