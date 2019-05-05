@@ -16,6 +16,7 @@
 		434CE120226430FE00A84AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434CE11E226430FE00A84AF4 /* LaunchScreen.storyboard */; };
 		434CE12B226430FE00A84AF4 /* FBDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434CE12A226430FE00A84AF4 /* FBDownloaderTests.swift */; };
 		434CE136226430FE00A84AF4 /* FBDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434CE135226430FE00A84AF4 /* FBDownloaderUITests.swift */; };
+		434EE174227D558300406EF1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434EE173227D558300406EF1 /* TableViewCell.swift */; };
 		43887D202271EDCF0066FA81 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43887D1F2271EDCF0066FA81 /* Video.swift */; };
 		43BFCAA52276F841005F3A69 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFCAA42276F841005F3A69 /* TableTableViewController.swift */; };
 		FB31CBD512A5660162E39DF3 /* Pods_FBDownloaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB1F678B0E0357B2BAB139F /* Pods_FBDownloaderUITests.framework */; };
@@ -52,6 +53,7 @@
 		434CE131226430FE00A84AF4 /* FBDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		434CE135226430FE00A84AF4 /* FBDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBDownloaderUITests.swift; sourceTree = "<group>"; };
 		434CE137226430FE00A84AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434EE173227D558300406EF1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		43887D1F2271EDCF0066FA81 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		43BFCAA42276F841005F3A69 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
 		4EE03225B046F08E56740423 /* Pods-FBDownloaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDownloaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBDownloaderTests/Pods-FBDownloaderTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				434CE115226430FD00A84AF4 /* AppDelegate.swift */,
 				43BFCAA42276F841005F3A69 /* TableTableViewController.swift */,
+				434EE173227D558300406EF1 /* TableViewCell.swift */,
 				434CE117226430FD00A84AF4 /* ViewController.swift */,
 				434CE119226430FD00A84AF4 /* Main.storyboard */,
 				43887D1F2271EDCF0066FA81 /* Video.swift */,
@@ -392,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434EE174227D558300406EF1 /* TableViewCell.swift in Sources */,
 				43BFCAA52276F841005F3A69 /* TableTableViewController.swift in Sources */,
 				434CE118226430FD00A84AF4 /* ViewController.swift in Sources */,
 				43887D202271EDCF0066FA81 /* Video.swift in Sources */,

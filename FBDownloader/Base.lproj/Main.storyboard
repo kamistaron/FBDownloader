@@ -40,24 +40,23 @@
                                     <action selector="btnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fKx-ca-Tlj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zh3-4w-RMm">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zh3-4w-RMm">
                                 <rect key="frame" x="243" y="766" width="131" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="DLBOKOLAMASAB"/>
                                 <connections>
                                     <action selector="DLtapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3h2-W4-MoZ"/>
-                                    <segue destination="Bmb-17-SqU" kind="show" id="y5W-3g-5Zh"/>
+                                    <segue destination="Bmb-17-SqU" kind="show" identifier="downloadpressed" id="y5W-3g-5Zh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FaceBook Video Downloader" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Arw-1Z-Svs">
-                                <rect key="frame" x="84" y="151" width="247" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FaceBook Video Downloader" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Arw-1Z-Svs">
+                                <rect key="frame" x="84" y="151" width="246" height="22"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSi-4h-8yy">
-                                <rect key="frame" x="171" y="815" width="46" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSi-4h-8yy">
+                                <rect key="frame" x="171" y="816" width="46" height="35"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" title="Play">
@@ -67,16 +66,16 @@
                                     <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3x2-nb-JEq"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="default-video-thumbnail" translatesAutoresizingMaskIntoConstraints="NO" id="S23-KC-Otw">
-                                <rect key="frame" x="0.0" y="357" width="414" height="379"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Lqg-cZ-gmg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5Y5-Tw-dpQ"/>
+                            <constraint firstItem="vSi-4h-8yy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="171" id="8TR-PM-Kxd"/>
                             <constraint firstItem="Arw-1Z-Svs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84" id="Gau-8a-ONk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vSi-4h-8yy" secondAttribute="bottom" constant="11" id="JaH-SF-3WX"/>
                             <constraint firstItem="Lqg-cZ-gmg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OhT-hj-kda"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vSi-4h-8yy" secondAttribute="trailing" constant="197" id="RUX-cO-0Sa"/>
+                            <constraint firstItem="Zh3-4w-RMm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="LZn-VV-LCJ" secondAttribute="trailing" constant="8" symbolic="YES" id="Tst-ur-OY4"/>
                             <constraint firstItem="Arw-1Z-Svs" firstAttribute="centerX" secondItem="D6h-PR-mcv" secondAttribute="centerX" id="XiF-es-MO3"/>
                             <constraint firstItem="D6h-PR-mcv" firstAttribute="centerX" secondItem="Lqg-cZ-gmg" secondAttribute="centerX" id="ZFD-7I-qF5"/>
                             <constraint firstItem="D6h-PR-mcv" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="aG1-Ee-0sL"/>
@@ -84,32 +83,38 @@
                             <constraint firstItem="D6h-PR-mcv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="161" id="i7y-gJ-o6Z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zh3-4w-RMm" secondAttribute="bottom" constant="66" id="jKU-t8-Ty6"/>
                             <constraint firstItem="D6h-PR-mcv" firstAttribute="centerX" secondItem="LZn-VV-LCJ" secondAttribute="centerX" constant="128" id="lMN-DG-8in"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zh3-4w-RMm" secondAttribute="trailing" constant="40" id="ooi-Wy-lHT"/>
                             <constraint firstItem="Arw-1Z-Svs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="63" id="q0b-37-w4W"/>
                             <constraint firstItem="D6h-PR-mcv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xru-bN-LAA"/>
                             <constraint firstItem="Lqg-cZ-gmg" firstAttribute="centerY" secondItem="LZn-VV-LCJ" secondAttribute="centerY" constant="-328" id="zjT-ze-DSK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="2pV-2c-mJo" colorLabel="IBBuiltInLabel-Blue"/>
+                    <navigationItem key="navigationItem" id="2pV-2c-mJo" colorLabel="IBBuiltInLabel-Blue">
+                        <barButtonItem key="rightBarButtonItem" title="Downloads" id="C3l-c7-94s">
+                            <connections>
+                                <segue destination="Bmb-17-SqU" kind="show" identifier="downloadsbtn" id="bgl-QC-qig"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="inputFiled" destination="D6h-PR-mcv" id="Uj2-PH-Z1E"/>
-                        <outlet property="thumbnailoooo" destination="S23-KC-Otw" id="k8C-Me-XPy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="136.60714285714286"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table Table View Controller-->
         <scene sceneID="6Dp-om-cgr">
             <objects>
-                <tableViewController id="Bmb-17-SqU" sceneMemberID="viewController">
+                <tableViewController id="Bmb-17-SqU" customClass="TableTableViewController" customModule="FBDownloader" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="mFg-6w-nXk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="145" id="1Dw-PS-9Ck">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableviewcell" rowHeight="145" id="1Dw-PS-9Ck" customClass="TableViewCell" customModule="FBDownloader" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="145"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Dw-PS-9Ck" id="Gse-At-VAj">
@@ -122,12 +127,31 @@
                                                 <constraint firstAttribute="width" constant="144" id="GzM-7i-Yma"/>
                                             </constraints>
                                         </imageView>
-                                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4zu-u2-mi1">
-                                            <rect key="frame" x="189" y="118" width="205" height="2"/>
+                                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4zu-u2-mi1">
+                                            <rect key="frame" x="176" y="117" width="205" height="2"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="205" id="8eY-c2-x0G"/>
                                             </constraints>
                                         </progressView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3DG-WK-Rro">
+                                            <rect key="frame" x="252" y="117" width="53" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mro-Hm-VtW">
+                                            <rect key="frame" x="383" y="112" width="11" height="12"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="icons8-delete-48"/>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCe-jf-fZo">
+                                            <rect key="frame" x="176" y="11" width="218" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Wp4-sX-hJg" firstAttribute="leading" secondItem="Gse-At-VAj" secondAttribute="leadingMargin" id="ClO-xF-Z3S"/>
@@ -137,6 +161,12 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="4zu-u2-mi1" secondAttribute="bottom" constant="14" id="vO4-k8-1BH"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="progStatusLabel" destination="3DG-WK-Rro" id="EgF-m2-7UX"/>
+                                    <outlet property="progressView" destination="Gse-At-VAj" id="LpG-Ic-X8w"/>
+                                    <outlet property="thumbnail" destination="Wp4-sX-hJg" id="lIY-B3-SsI"/>
+                                    <outlet property="videoName" destination="uCe-jf-fZo" id="UCR-zm-Bdp"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -144,6 +174,8 @@
                             <outlet property="delegate" destination="Bmb-17-SqU" id="pgG-oS-2A8"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rVY-Lk-T23" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -169,6 +201,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="default-video-thumbnail" width="538" height="303"/>
+        <image name="icons8-delete-48" width="48" height="48"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="y5W-3g-5Zh"/>
+    </inferredMetricsTieBreakers>
 </document>
