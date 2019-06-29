@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Le3-8v-BpP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bmb-17-SqU">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -55,26 +55,12 @@
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSi-4h-8yy">
-                                <rect key="frame" x="171" y="816" width="46" height="35"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" title="Play">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3x2-nb-JEq"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Lqg-cZ-gmg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5Y5-Tw-dpQ"/>
-                            <constraint firstItem="vSi-4h-8yy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="171" id="8TR-PM-Kxd"/>
                             <constraint firstItem="Arw-1Z-Svs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84" id="Gau-8a-ONk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vSi-4h-8yy" secondAttribute="bottom" constant="11" id="JaH-SF-3WX"/>
                             <constraint firstItem="Lqg-cZ-gmg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OhT-hj-kda"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vSi-4h-8yy" secondAttribute="trailing" constant="197" id="RUX-cO-0Sa"/>
                             <constraint firstItem="Zh3-4w-RMm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="LZn-VV-LCJ" secondAttribute="trailing" constant="8" symbolic="YES" id="Tst-ur-OY4"/>
                             <constraint firstItem="Arw-1Z-Svs" firstAttribute="centerX" secondItem="D6h-PR-mcv" secondAttribute="centerX" id="XiF-es-MO3"/>
                             <constraint firstItem="D6h-PR-mcv" firstAttribute="centerX" secondItem="Lqg-cZ-gmg" secondAttribute="centerX" id="ZFD-7I-qF5"/>

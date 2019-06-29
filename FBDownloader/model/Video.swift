@@ -15,7 +15,7 @@ class Video: Object {
     @objc dynamic var sourceURL : String = ""
     @objc dynamic var fileURL : String = ""
     @objc dynamic var videoName = ""
-    @objc dynamic var thumbnail = UIImage()
+//    @objc dynamic var thumbnail = UIImage()
     @objc dynamic var dateDownloaded = Date()
     func commonInit(webURL: String, fileAddress: String, name: String){
         dateDownloaded = Date.init()
@@ -25,14 +25,14 @@ class Video: Object {
         let imageGenerator = AVAssetImageGenerator(asset: asset)
         imageGenerator.appliesPreferredTrackTransform = true
         let time = CMTime(seconds: 1, preferredTimescale: 1)
-        do{
-            let image = try imageGenerator.copyCGImage(at: time, actualTime: nil)
-            thumbnail = UIImage(cgImage: image)
-            
-        }catch{
-            print("here is the error: \(error)")
-        }
+//        do{
+//            let image = try imageGenerator.copyCGImage(at: time, actualTime: nil)
+//            thumbnail = UIImage(cgImage: image)
+//
+//        }catch{
+//            print("here is the error: \(error)")
+//        }
         videoName = name
-        thumbnail = UIImage(named: "default-video-thumbnail")!
+//        thumbnail = UIImage(named: "default-video-thumbnail")!
     }
 }

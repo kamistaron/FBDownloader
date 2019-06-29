@@ -125,7 +125,7 @@
 				434EE173227D558300406EF1 /* TableViewCell.swift */,
 				434CE117226430FD00A84AF4 /* ViewController.swift */,
 				434CE119226430FD00A84AF4 /* Main.storyboard */,
-				43887D1F2271EDCF0066FA81 /* Video.swift */,
+				436378FA22C7AD84003CDC18 /* model */,
 				434CE11C226430FE00A84AF4 /* Assets.xcassets */,
 				434CE11E226430FE00A84AF4 /* LaunchScreen.storyboard */,
 				434CE121226430FE00A84AF4 /* Info.plist */,
@@ -149,6 +149,14 @@
 				434CE137226430FE00A84AF4 /* Info.plist */,
 			);
 			path = FBDownloaderUITests;
+			sourceTree = "<group>";
+		};
+		436378FA22C7AD84003CDC18 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				43887D1F2271EDCF0066FA81 /* Video.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		BE8B2047DD3848DCF8554453 /* Pods */ = {

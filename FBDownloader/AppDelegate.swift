@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,9 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let audioSession = AVAudioSession.sharedInstance()
         do {
             try audioSession.setCategory(.playback, mode: .moviePlayback)
+            let realm = try Realm()
+            print(Realm.Configuration.defaultConfiguration.fileURL)
         }
         catch {
-            print("Setting category to AVAudioSessionCategoryPlayback failed.")
+            print(error)
         }
         return true
     }
